@@ -1,0 +1,19 @@
+//  Syam prasad 21103
+class Main {
+   function void main() {
+      var int i, j, k, l;
+      var Fraction a, b, d;     
+      let i = Keyboard.readInt("enter first numerator:");     
+      let j = Keyboard.readInt("enter first denominator:");     
+      let k = Keyboard.readInt("enter second numerator:");     
+      let l = Keyboard.readInt("enter second denominator:");
+      let a = Fraction.new(i,j);  
+      let b = Fraction.new(k,l);  
+      do a.compare(b);
+      do Output.println();
+      do Output.printString("The product is:");
+      let d = a.multiply(b);
+      do d.print();
+      return;
+   }
+}
