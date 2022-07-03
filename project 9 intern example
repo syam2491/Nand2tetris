@@ -1,0 +1,13 @@
+class Main {
+   function void main() {
+      var Intern R1,R2;        
+      let R1 = Intern.new(25);  
+        
+      do Output.printString("The area of the circle is:"); 
+      do Output.println();  
+      do R1.print();
+      do Output.println();
+      do R2.dispose();
+      return;
+   }
+}
